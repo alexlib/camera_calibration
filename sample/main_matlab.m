@@ -21,7 +21,7 @@ num_radial_dist_coefs = 2;
 % 
 
 % Set automatically
-img_file_list = dir('data/*.jpg');
+img_file_list = dir('../data/*.jpg');
 num_img_files = size(img_file_list, 1);
 
 imageFileNames = cell(1, num_img_files);
